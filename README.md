@@ -1,20 +1,20 @@
-# 🎬 MoviePick - A Movie Recommendation System
+# 🎬 MoviePick : A Movie Recommendation System
 
 This is a content-based movie recommendation system built using Python. It recommends movies similar to your favorite ones using cosine similarity on movie data.
 
 
-## 🚀 Features
+##   Features
 
 - Recommend movies similar to a selected title
-- Uses `pandas`, `scikit-learn`, and `gdown`
+- Uses python computations, machine learning, natural language processing
 - Lightweight and easy to deploy
 
 
-### 📂 Project Structure
+###   Project Structure
 
 ├── app.py # Main application file
 ├── movie_dict.pkl # Contains movie metadata (not tracked in GitHub)
-├── similarity.pkl # Similarity matrix (downloaded via gdown)
+├── similarity.pkl # Similarity matrix (downloaded via gdown or drive link)
 ├── .gitignore
 └── README.md
 
@@ -35,12 +35,13 @@ pip install -r requirements.txt
 python app.py
 
 
-📥 Download similarity.pkl :
+  Download similarity.pkl :
 
 This file is large, so it's not included in the repo. It will automatically be downloaded from Google Drive using gdown when the app runs.
+In case if not automatically downloaded click on this link : https://drive.google.com/file/d/1YaYlElVpire2PcnHeHcosCKOcIJmIs7b/view?usp=sharing
 
 
-🧠 Technologies Used :
+  Technologies Used :
 
 Python
 Pandas
@@ -54,11 +55,11 @@ Jupiter Notebook
 VS Code
 GitHub
 
-🙏 Acknowledgements :
+  Acknowledgements :
 
 Thanks to TMDB for the movie data.
 
 
-📬 Contact :
+  Contact :
 
 Email: tarunn2501@gmail.com
